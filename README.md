@@ -1,8 +1,11 @@
 # rdf-xsl
-The program will innput an xsl file and transofrm an rdf to it to legacy rdf format
+The program will innput an xsl file and transofrm an rdf to it to legacy rdf format as decibed
+
+https://www.w3.org/Submission/2004/SUBM-SWRL-20040521/
 
 
-by default the rdf has these namespaces to describe that it is an xml document with dublin core (dc) terms and additional resources from example.com
+
+Traditionally, default the rdf has these namespaces to describe that it is an xml document with dublin core (dc) terms and additional resources from example.com
 
 
 <?xml version="1.0" encoding="utf-8"?>

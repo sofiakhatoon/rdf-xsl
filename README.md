@@ -17,3 +17,21 @@ by default the rdf has these namespaces to describe that it is an xml document w
 
 The smantic web rule language explained under 
 https://owlready2.readthedocs.io/en/latest/rule.html
+
+The program expects that you host a file in another web server so the uri
+
+http://localhost/movies2.n3
+
+can display the following mime
+
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<file://C://Users//ah0169313//downloads//movies.n3> dc:title "Movies viewed by John Doe" .
+
+<file://C://Users//ah0169313//downloads//movies2.n3#author> a foaf:Person ;
+    foaf:mbox "john@doe.org" ;
+    foaf:name "John Doe" .
+    
+    
+ this can be done using IIS etc.
